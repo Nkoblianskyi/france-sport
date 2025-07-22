@@ -9,10 +9,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Logo and Description */}
           <div className="text-center md:text-left">
-            <div className="flex items-center justify-center md:justify-start space-x-3 mb-4">
+            <Link href="/" className="flex items-center space-x-3">
               <Image src="/favicon.ico" alt="Logo" width={32} height={32} />
-              <h2 className="text-white font-bold text-2xl">ParisSportifsFrance</h2>
-            </div>
+              <h1 className="text-xl md:text-2xl font-bold">
+                <span className="text-blue-400">Le</span>
+                <span className="text-red-400">Paris</span>
+                <span className="text-white">SportifsFrance</span>
+              </h1>
+            </Link>
             <p className="text-slate-300 text-sm leading-relaxed">
               Votre guide expert pour les meilleurs sites de paris sportifs licenciés ANJ en France. Comparaisons
               transparentes et conseils responsables.
@@ -30,13 +34,7 @@ export function Footer() {
                 Politique de Confidentialité
               </Link>
               <Link
-                href="/mentions-legales"
-                className="block text-slate-300 hover:text-blue-400 text-sm transition-colors"
-              >
-                Mentions Légales
-              </Link>
-              <Link
-                href="/politique-cookies"
+                href="/politica-privacidade"
                 className="block text-slate-300 hover:text-blue-400 text-sm transition-colors"
               >
                 Politique des Cookies
@@ -176,7 +174,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-slate-600 pt-6 text-center">
-          <p className="text-slate-400 text-sm">&copy; 2025 ParisSportifsFrance.com - Tous droits réservés</p>
+          <p className="text-slate-400 text-sm">&copy; 2025 leparissportifsfrance.com - Tous droits réservés</p>
           <p className="text-slate-500 text-xs mt-2">
             Comparateur indépendant de sites de paris sportifs licenciés ANJ en France
           </p>

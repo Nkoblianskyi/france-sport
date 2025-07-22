@@ -48,7 +48,7 @@ export default function PolitiqueConfidentialitePage() {
             <h2 className="text-2xl font-bold mb-4 text-blue-600">5. Contact</h2>
             <p className="text-slate-700 leading-relaxed">
               Pour toute question concernant notre politique de confidentialité, veuillez nous contacter à :
-              privacy@parissportifsfrance.com
+              privacy@leparissportifsfrance.com
             </p>
           </section>
 

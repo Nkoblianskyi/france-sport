@@ -1,20 +1,20 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Nunito } from "next/font/google"
 import "./globals.css"
 import { Footer } from "@/components/footer"
 import { CookieBanner } from "@/components/cookie-banner"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Nunito({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ParisSportifsFrance - Meilleurs Sites de Paris Sportifs France 2025",
+  title: "LeParisSportifsFrance - Meilleurs Sites de Paris Sportifs France 2025",
   description:
     "Classement des meilleurs sites de paris sportifs en France. Comparatif expert avec bonus, évaluations et cotes pour choisir la meilleure plateforme de paris. 18+ uniquement.",
   keywords: "paris sportifs, sites de paris, bonus paris sportifs, cotes, ANJ, licence, jeu responsable, 18+",
-  authors: [{ name: "ParisSportifsFrance" }],
-  creator: "ParisSportifsFrance",
-  publisher: "ParisSportifsFrance",
+  authors: [{ name: "LeParisSportifsFrance" }],
+  creator: "LeParisSportifsFrance",
+  publisher: "LeParisSportifsFrance",
   robots: {
     index: true,
     follow: true,
@@ -30,14 +30,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://parissportifsfrance.com",
-    title: "ParisSportifsFrance - Comparateur Sites Paris Sportifs",
+    url: "https://leparissportifsfrance.com",
+    title: "LeParisSportifsFrance - Comparateur Sites Paris Sportifs",
     description: "Guide expert des meilleurs sites de paris sportifs licenciés ANJ en France. Jeu responsable 18+.",
-    siteName: "ParisSportifsFrance",
+    siteName: "LeParisSportifsFrance",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ParisSportifsFrance - Sites Paris Sportifs France",
+    title: "LeParisSportifsFrance - Sites Paris Sportifs France",
     description: "Comparateur expert sites paris sportifs licenciés ANJ. Jeu responsable 18+.",
   },
   other: {

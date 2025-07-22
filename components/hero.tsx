@@ -21,7 +21,7 @@ export function Hero() {
 
   return (
     <>
-      <section className="py-2 px-4 w-full">
+      <section className="py-8 px-4 w-full">
         <div className="container mx-auto max-w-[1220px]">
           <div className="bg-slate-800/95 backdrop-blur-sm rounded-lg shadow-sm border border-blue-500 p-8">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
@@ -29,9 +29,9 @@ export function Hero() {
               <div className="space-y-6">
                 <div>
                   <h1 className="text-3xl md:text-4xl font-bold mb-4">
-                    <span className="text-blue-400">Paris</span>
-                    <span className="text-red-400">Sportifs</span>
-                    <span className="text-white">France</span>
+                    <span className="text-blue-400">Le</span>
+                    <span className="text-red-400">Paris</span>
+                    <span className="text-white">SportifsFrance</span>
                   </h1>
 
                   <div className="text-slate-400 mb-4 text-sm">Dernière mise à jour : {formattedDate}</div>
@@ -80,7 +80,6 @@ export function Hero() {
                   <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-red-500/20 rounded-full"></div>
 
                   {/* Badge #1 */}
-                  
 
                   {/* Trophy icon */}
                   <Trophy className="absolute top-4 right-4 w-8 h-8 text-blue-400 opacity-40" />
@@ -113,9 +112,8 @@ export function Hero() {
                         {[...Array(5)].map((_, i) => (
                           <Star
                             key={i}
-                            className={`w-5 h-5 stroke-blue-400 stroke-[1.5px] ${
-                              i < topSite.stars ? "text-blue-400 fill-blue-400" : "text-transparent"
-                            }`}
+                            className={`w-5 h-5 stroke-blue-400 stroke-[1.5px] ${i < topSite.stars ? "text-blue-400 fill-blue-400" : "text-transparent"
+                              }`}
                           />
                         ))}
                       </div>

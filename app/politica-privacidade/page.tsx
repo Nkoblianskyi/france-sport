@@ -16,14 +16,14 @@ export default function PoliticaPrivacidadePage() {
             <h2 className="text-2xl font-bold mb-4 text-yellow-400">1. Quem Somos</h2>
             <div className="text-slate-300 leading-relaxed space-y-3">
               <p>
-                O ApostasDesportivasPT.com é um serviço de comparação independente de casas de apostas desportivas
+                O LeParisSportifsFrance é um serviço de comparação independente de casas de apostas desportivas
                 licenciadas em Portugal. O nosso objetivo é fornecer informações precisas e atualizadas para ajudar os
                 utilizadores a tomar decisões informadas.
               </p>
               <p>
-                <strong>Responsável pelo tratamento:</strong> ApostasDesportivasPT
+                <strong>Responsável pelo tratamento:</strong> LeParisSportifsFrance
                 <br />
-                <strong>Contacto:</strong> privacidade@apostasdesportivaspt.com
+                <strong>Contacto:</strong> privacidade@leparissportifsfrance.com
               </p>
             </div>
           </section>
@@ -140,7 +140,7 @@ export default function PoliticaPrivacidadePage() {
               </div>
               <p className="mt-4">
                 Para exercer os seus direitos, contacte-nos em:{" "}
-                <strong className="text-yellow-400">privacidade@apostasdesportivaspt.com</strong>
+                <strong className="text-yellow-400">privacidade@leparissportifsfrance.com</strong>
               </p>
             </div>
           </section>
