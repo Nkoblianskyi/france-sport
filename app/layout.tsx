@@ -58,7 +58,6 @@ export const metadata: Metadata = {
     "content-type": "Comparaison éducative sites paris sportifs licenciés",
     "risk-awareness": "Sensibilisation aux risques du jeu problématique",
   },
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
